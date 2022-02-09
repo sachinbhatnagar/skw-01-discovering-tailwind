@@ -1,0 +1,142 @@
+/* Vanilla */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: rgb(216, 226, 255);
+}
+
+.pricing-page {
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headline {
+  align-self: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.subheading {
+  align-self: center;
+}
+
+.pricing-plans {
+  margin-top: 40px;
+  margin-right: 80px;
+  margin-left: 80px;
+  display: flex;
+  align-content: center;
+  justify-content: stretch;
+}
+
+@media (max-width: 768px) {
+  .pricing-plans {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pricing-plans {
+    flex-direction: row;
+  }
+}
+
+.panel {
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.plan-dark {
+  background-color: rgb(109, 13, 210);
+  color: white;
+  box-shadow: 0px 0px 40px 5px rgba(89, 0, 255, 0.7);
+  transform: scale(1.1);
+}
+
+.plan-name {
+  font-size: 60px;
+  font-weight: bold;
+  width: 65%;
+}
+
+.plan-pricing {
+  width: 30%;
+  background-color: rgb(187, 187, 187);
+  padding: 10px;
+}
+
+.plan-pricing-dark {
+  color: black;
+  background-color: rgb(210, 135, 251);
+}
+
+.highlight {
+  width: 100%;
+}
+
+.amount {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.schedule {
+  text-align: center;
+}
+
+.highlight {
+  font-size: 14px;
+  color: grey;
+}
+
+.plan-features {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.plan-features li > img {
+  width: 6%;
+}
+
+.plan-features li > span {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.subscribe-btn {
+  margin-top: 20px;
+  background-color: rgb(255, 151, 6);
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-blue-200 to-purple-200 font-sans;
+  }
+
+  .pricing-page {
+    @apply relative top-10 flex flex-col justify-start items-center;
+  }
+
+  .headline {
+    @apply text-4xl xl:text-5xl font-bold p-2;
+  }
+
+  .subheading {
+    @apply text-lg mt-2;
+  }
+
+  .pricing-plans {
+    @apply flex content-center justify-center mt-12 mr-10 ml-10 flex-col xl:flex-row;
+  }
+
+  .panel {
+    @apply bg-white m-6 p-6 flex flex-col min-w-[420px] shadow-xl divide-y rounded-sm;
+  }
+
+  .plan {
+    @apply flex flex-row flex-wrap mb-4 justify-between items-center;
+  }
+
+  .plan-dark {
+    @apply bg-purple-950 text-white shadow-premium scale-110;
+  }
+
+  .plan-name {
+    @apply text-5xl pr-10 font-bold w-2/4;
+  }
+
+  .plan-pricing {
+    @apply text-black p-3 bg-gray-400;
+  }
+
+  .plan-pricing-dark {
+    @apply bg-purple-400;
+  }
+
+  .amount {
+    @apply text-3xl font-bold text-center;
+  }
+
+  .schedule {
+    @apply text-center text-sm;
+  }
+
+  .highlight {
+    @apply w-full text-sm;
+  }
+
+  .plan-features {
+    @apply pt-4 mb-10 flex flex-col;
+  }
+
+  .plan-features li {
+    @apply flex items-center p-1;
+  }
+
+  .plan-features li > img {
+    @apply w-5;
+  }
+
+  .plan-features li > span {
+    @apply ml-5 text-sm;
+  }
+
+  .ft-grey {
+    @apply opacity-40;
+  }
+}
+
+@layer components {
+  .subscribe-btn {
+    @apply mt-5 bg-orange-500 p-4 font-bold border-none text-black;
+  }
+}
