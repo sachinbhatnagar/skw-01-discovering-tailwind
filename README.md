@@ -6,7 +6,7 @@
 
 **Instructions**
 
-1.Clone the repo locally
-2.Open the terminal and go into the end folder
-3.Run `npm install` to install all dependencies
-4.Run `npm run dev` to bring up the development server
+1. Clone the repo locally
+2. Open the terminal and go into the end folder
+3. Run `npm install` to install all dependencies
+4. Run `npm run dev` to bring up the development server
