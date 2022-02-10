@@ -1,0 +1,13 @@
+{
+  "name": "hello-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite serve src/",
+    "build": "vite build",
+    "preview": "vite preview src/"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
+  "dependencies": {}
+}
