@@ -2,8 +2,6 @@
 
 ## Skill Up Webinar - Discovering Tailwind CSS
 
----
-
  **Instructions**
 
 1. Clone the repo locally
